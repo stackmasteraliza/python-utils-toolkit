@@ -109,6 +109,56 @@ This project grows with daily contributions! Here are areas you can improve:
 - [ ] Add archive (zip/tar) utilities
 - [ ] Add network utilities
 
+## Next Challenge
+
+### 🚀 Your Next Coding Challenge
+
+Now that you've built a comprehensive Python utils toolkit, here's your next challenge:
+
+**Build a CLI Tool for the Utils Toolkit**
+
+Create a command-line interface that allows users to access all utility functions from the terminal. This will make your utilities more accessible and demonstrate advanced CLI development skills.
+
+**Requirements:**
+- Use `argparse` or `click` for CLI parsing
+- Support all major utility functions (file, text, date, web, system)
+- Include help documentation for each command
+- Add progress bars for long-running operations
+- Support both interactive and batch modes
+- Include configuration file support
+- Add colored output for better user experience
+
+**Example Usage:**
+```bash
+# File operations
+python -m utils.cli find-files --pattern "*.py" --directory ./src
+python -m utils.cli organize-files --source ./downloads --by extension
+
+# Text processing
+python -m utils.cli extract-emails --file document.txt
+python -m utils.cli slugify "Hello World! How are you?"
+
+# System info
+python -m utils.cli system-info
+python -m utils.cli disk-usage C:/
+```
+
+**Bonus Challenges:**
+- Add shell completion support (bash/zsh/fish)
+- Create a web API version of the utilities
+- Add logging and audit trails
+- Implement plugin architecture for extensibility
+- Create a GUI version using tkinter or web interface
+
+**Learning Objectives:**
+- CLI application development
+- Argument parsing and validation
+- Cross-platform compatibility
+- Error handling and user feedback
+- Code organization for CLI tools
+
+---
+
 ## License
 
 MIT License - Feel free to use, modify, and distribute.
